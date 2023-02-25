@@ -9,8 +9,6 @@
     <!-- link css -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="js/main.js" />
-
     <!-- icon -->
     <link href="img/dish.png" rel="icon" />
 
@@ -30,7 +28,7 @@
       crossorigin="anonymous"
     />
 
-    <!-- another style sheet -->
+    <!-- font awsome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -41,97 +39,165 @@
   </head>
 
   <body>
-    <!-- nav  -->
+  
+      <!-- nav -->
+    <header class="h-row h-container">
+      <a href="" class="logo h-row">
+        <img src="img/dish.png" alt="" />
+        <h1>demo</h1>
+      </a>
+      <div class="toggleMenu" onclick="toggleMenu();"></div>
+      <nav class="nav-navigation h-row">
+        <ul class="h-row">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">service</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">signup</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end nav -->
 
-    <nav>
-      <div class="nav-container">
-        <a href="index.html">
-          <img src="img/dish.png" class="logonav" /> 
-        </a>
-        <div class="nav-profile">
+    <!-- hero -->
+      <!-- end nav -->
 
-            <!-- nav item  -->
+      <!-- hero cover -->
+      <!-- <section id="hero">
+        <div class="container">
+          <div class="info">
+            <h1>This is a title</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vero ratione vitae dicta explicabo
+              perferendis amet quis provident molestiae magni!</p>
+            <a href="#">Click Me</a>
+          </div>
+        </div>
+      </section> -->
+      
+      <!-- *******************   -->
+      <!--  !!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+      <!--  This Code is for only the floating card in right bottom corner -->
+      <!-- ********************  -->
+      
+      <!-- <div id="webCifar-sidebox">
+        <div id="webCifar">
+          <h2 class="logo">Web Cifar</h2>
+          <p class="author">Coded By <span>Shaif Arfan</span> </p>
+          <div class="items">
+            <a href="https://www.youtube.com/channel/UCdxaLo9ALJgXgOUDURRPGiQ" target="_blank" class="item youtubeLink">
+              <svg title="watch how we made this" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+              </svg>
+              <p>Watch how we made this.
+              </p>
+            </a>
+            <a href="https://webcifar.com" target="_blank" class="item">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+              </svg>
+              <p>https://webcifar.com</p>
+            </a>
+      
+          </div>
+          <div class="close">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </div>
+        </div>
+        <div id="webCifar-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <p>Info About the pen</p>
+        </div>
+      </div> -->
+      <!-- end cover -->
 
-            <!-- <div class="navbar-nav">
-                <ul class="">
-                    <li class="nav-profile-item">
-                      <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-profile-item">
-                      <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-profile-item">
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-profile-item">
-                      <a class="nav-link">Disabled</a>
-                    </li>
-                  </ul>  
-            </div> -->
-
-            <!-- end nav item -->
-
-          <p class="f-nunito nav-profile-name">TiguS</p>
-          <div class="nav-profile-cart">
-            <i class="fa fa-cutlery"></i>
-            <div class="cartcount">5</div>
+      <!-- asdas -->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="img/hero.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">
+            Responsive left-aligned hero with image
+          </h1>
+          <p class="lead">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+              <a href="item.html">Primary</a>
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Default
+            </button>
           </div>
         </div>
       </div>
-    </nav>
-
-    <!-- end nav -->
-
-    <!-- item -->
-    <div class="container">
-        <div class="food">
-
-            <div class="food-items">
-              <img class="food-img" src="img/hero.png" alt="">
-              <p style="font-size: 1.2vw;">food name</p>
-              <p stlye="font-size: 1vw;">500 THB</p>
-            </div>
-    
-            <div class="food-items">
-              <img class="food-img" src="img/hero.png" alt="">
-              <p style="font-size: 1.2vw;">food name</p>
-              <p stlye="font-size: 1vw;">500 THB</p>
-            </div>
-            
-            <div class="food-items">
-              <img class="food-img" src="img/hero.png" alt="">
-              <p style="font-size: 1.2vw;">food name</p>
-              <p stlye="font-size: 1vw;">500 THB</p>
-            </div>
-    
-            <div class="food-items">
-              <img class="food-img" src="img/hero.png" alt="">
-              <p style="font-size: 1.2vw;">food name</p>
-              <p stlye="font-size: 1vw;">500 THB</p>
-            </div>
-    
-            <div class="food-items">
-              <img class="food-img" src="img/hero.png" alt="">
-              <p style="font-size: 1.2vw;">food name</p>
-              <p stlye="font-size: 1vw;">500 THB</p>
-            </div>
-    
-          </div>
-    
-        </div>
-        
     </div>
-    
+      <!-- asd -->
+
+      <!-- item -->
+      <!-- <div class="container">
+        <div class="food">
+          <div class="food-items">
+            <img class="food-img" src="img/hero.png" alt="" />
+            <p style="font-size: 1.2vw">food name</p>
+            <p stlye="font-size: 1vw;">500 THB</p>
+          </div>
+
+          <div class="food-items">
+            <img class="food-img" src="img/hero.png" alt="" />
+            <p style="font-size: 1.2vw">food name</p>
+            <p stlye="font-size: 1vw;">500 THB</p>
+          </div>
+
+          <div class="food-items">
+            <img class="food-img" src="img/hero.png" alt="" />
+            <p style="font-size: 1.2vw">food name</p>
+            <p stlye="font-size: 1vw;">500 THB</p>
+          </div>
+
+          <div class="food-items">
+            <img class="food-img" src="img/hero.png" alt="" />
+            <p style="font-size: 1.2vw">food name</p>
+            <p stlye="font-size: 1vw;">500 THB</p>
+          </div>
+
+          <div class="food-items">
+            <img class="food-img" src="img/hero.png" alt="" />
+            <p style="font-size: 1.2vw">food name</p>
+            <p stlye="font-size: 1vw;">500 THB</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
     <!-- end item -->
 
     <!-- footer -->
-    <footer>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"
-      ></script>
-    </footer>
+    <script src="js/main.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end footer -->
   </body>
 </html>
