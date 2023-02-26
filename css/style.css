@@ -127,7 +127,7 @@ header .icons #menu-bars{
 /* end nav */
 
 /* media */
-@media (max-width:991px) {
+@media screen and (max-width:991px) {
   html{
     font-size: 55%;
   }
@@ -143,14 +143,14 @@ header .icons #menu-bars{
   }
 }
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
   header .icons #menu-bars{
     display: inline-block;
   }
 
   header .navbar{
     position: absolute;
-    top:100%; left: 0; right: 0;
+    top:10%; left: 0; right: 0;
     background: #fff;
     border-top: .1rem solid rgba(0, 0, 0, .2);
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
@@ -158,20 +158,22 @@ header .icons #menu-bars{
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
+  header .navbar a{
+    display: inline-block; 
+    padding: 1.5rem;
+    margin: 1.5rem;
+    font-size: 2rem;
+    background: #eee;
+  } 
+
   header .navbar .active{
     clip-path: polygon(0 0 , 100% 0 , 100% 100%, 0% 100%);
   }
 
-  header .navbar a{
-    display: block;
-    padding: 1.5rem;
-    margin: 1rem;
-    font-size: 2rem;
-    background: #eee;
-  }
+  
 }
 
-@media (max-width:991px) {
+@media screen and (max-width:991px) {
   html{
     font-size: 50%;
   }
@@ -306,3 +308,31 @@ header .icons #menu-bars{
   font-size: 2.5rem;
 }
 /* end hero */
+
+/* step */
+.steps{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+  
+.steps .box{
+  flex: 1 1 25rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.steps .box img{
+  border-radius: 50%;
+  border: 1rem solid #fff;
+  box-shadow: 0 0.5 1rem rgba(0, 0, 0, .1);
+}
+
+.steps .box h3{
+  font-size: 3rem;
+  color: var(--black);
+  padding: 1rem;
+}
+
+/* end step */
