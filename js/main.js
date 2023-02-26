@@ -1,12 +1,14 @@
 // nav
 	let menu = document.querySelector('#menu-bars');
-	let navbar = document.querySelector('.navbar');
+	let navbar = document.querySelector('header .navbar');
 
 	menu.onclick = () =>{
 		menu.classList.toggle('fa-times');
 		navbar.classList.toggle('active');
 	}
 // end nav
+
+
 
 // hero
 var swiper = new Swiper(".home-slider", {
