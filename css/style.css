@@ -264,3 +264,98 @@ header .icons #menu-bars{
   text-align: center;
   font-size: 3.5rem;
 }
+.container{
+  width: auto;
+  max-width: auto;
+  padding: 40px;
+  margin: 0 30px;
+  background: var(--cont);
+  position: relative;
+}
+.details{
+  display: flex;
+  gap: 1em;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.order2 h1{
+  text-transform: uppercase;
+}
+.order2 span{
+  color: var(--txt);
+}
+.date p{
+  font-size: 1.1rem ;
+}
+.track{
+  margin: 4em 0 8em;
+}
+#progress{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  position: relative;
+  text-align: center;
+}
+#progess li{
+  width:20%;
+  position: fixed;
+}
+#progrees li::before{
+  content: '\2713';
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  align-items: center;
+  font-size: 2rem;
+  height: 50px;
+  background: var(--line);
+  color: #fff;
+  border-radius: 50%;
+  z-index: 11111;
+}
+#progress li:last-child::before{
+  content: '\2713';
+  font-weight: bold;
+  background: var(--light);
+}
+#progress::before {
+  content:'';
+  position: absolute;
+  top: 20px;
+  width: 55%;
+  margin-left: 35px;
+  height: 10px;
+  background: var(--line);
+  z-index: 111;
+}
+#progress::after{
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 80%;
+  height: 10px;
+  background: #c5cae9;
+}
+.lists{
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.list{
+  display: flex;
+  gap: 1em;
+  flex: 1 1 50px;
+}
+.list p{
+  font-size: 1.1rem;
+}
+.list img{
+  width: 50px;
+}
+
