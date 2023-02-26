@@ -156,3 +156,9 @@
     border: 1px solid #000;
     cursor: pointer;
   }
+  .price{
+    font-size: 1.4rem;
+  }
+  .foodName{
+    font-size: 2rem;
+  }
