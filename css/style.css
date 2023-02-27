@@ -213,6 +213,7 @@ header .icons #menu-bars{
   font-size: 5rem;
 }
 /* end hero */
+/* Start order */
 .order form{
   width: 90rem ;
   border-radius: .5rem;
@@ -287,6 +288,23 @@ header .icons #menu-bars{
 .date p{
   font-size: 1.1rem ;
 }
+.food-box{
+  background: #eee;
+  border-radius: .5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color:var(--light-color);
+  text-transform: none;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+
+
+
+
+
+/* End order */
 .track{
   margin: 4em 0 8em;
 }
@@ -358,9 +376,7 @@ header .icons #menu-bars{
 .list img{
   width: 50px;
 }
-.login-header{
-  margin-top: 15px;
-}
+
 
 
 
