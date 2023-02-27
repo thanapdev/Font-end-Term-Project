@@ -27,7 +27,14 @@
   html{
     font-size: 55%;
   }
-
+  .product {
+    width: 80%;
+    padding: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
   header{
     padding: 1rem 2rem;
 
@@ -78,14 +85,7 @@
   html{
     font-size: 50%;
   }
-  .product {
-    width: 80%;
-    padding: 10px;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-  }
+  
   header{
     padding: 1rem 2rem;
 
@@ -103,14 +103,6 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-  }
-  .product {
-    width: 80%;
-    padding: 10px;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
   }
   .sidebar-search {
     padding: 10px;
@@ -140,6 +132,14 @@
   .sidebar-items:hover {
     background: var(--pink);
     color: #fff;
+  }
+  .product {
+    width: 80%;
+    padding: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
   }
   .product-items {
     cursor: pointer;
@@ -204,6 +204,16 @@
     color: #fff;
     margin-left: 10px;
   }
+  .btnc {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--black);
+    cursor: pointer;
+  }
   .cartlist {
   }
   .cartlist-items {
@@ -225,16 +235,6 @@
     object-fit: cover;
     border-radius: 5px;
     margin-right: 10px;
-  }
-  .btnc {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid var(--black);
-    cursor: pointer;
   }
   .price{
     font-size: 1.4rem;

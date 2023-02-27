@@ -208,14 +208,16 @@ header .icons #menu-bars{
   padding: .5rem 0%;
 }
 
-.swiper-pagination-bullet-active{
-  background: var(--pink);
+.home .home-slider .slide .content h3{
+  font-size: 5rem;
 }
-
 .home .home-slider .slide .content h3{
   font-size: 5rem;
 }
 /* swiper */
+.swiper-pagination-bullet-active{
+  background: var(--pink);
+}
 .swiper-pagination-bullet-active{
   background: var(--pink);
 }
@@ -236,10 +238,6 @@ header .icons #menu-bars{
   position: relative;
   overflow: hidden;
   text-align: center;
-}
-
-.home .home-slider .slide .content h3{
-  font-size: 5rem;
 }
 
 .dishes .box-container .box .fa-heart , .dishes .box-container .box .fa-eye{
@@ -339,7 +337,7 @@ header .icons #menu-bars{
 /* end hero */
 /* Start order */
 .order form{
-  width: 90rem ;
+  max-width: 90rem ;
   border-radius: .5rem;
   box-shadow: var(--box-shadow);
   border: .1rem solid rgba(0, 0, 0, .2);
@@ -423,8 +421,18 @@ header .icons #menu-bars{
   width: 100%;
 }
 
-
-
+@media (max-width:450px){
+  html{
+    font-size: 50%;
+  }
+  .dishes .box-container .box img{
+    height: auto;
+    width: 100%;
+  }
+  .order form .inputBox .input{
+    width: 100%;
+  }
+}
 
 
 
