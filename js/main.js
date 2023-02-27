@@ -6,9 +6,21 @@
 		menu.classList.toggle('fa-times');
 		navbar.classList.toggle('active');
 	}
+
+
+	let cart = document.querySelector('.shopping-cart');
+
+	cart.onclick = () =>{
+		cart.classList.toggle('active');
+	}
 // end nav
 
-
+// cart
+$(".shopping-cart").fadeOut();
+  $("#cart").on("click", function () {
+    $(".shopping-cart").fadeToggle("fast");
+  });
+// end cart
 
 // hero
 var swiper = new Swiper(".home-slider", {
