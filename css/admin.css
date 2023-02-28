@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+/* Use for checkout */
+
+:root {
+  --very-blue: #6096b4;
+  --blue: #93bfcf;
+  --gray: #bdcdd6;
+  --vanilla: #eee9da;
+ 
+    --pink: #d70f64;
+    --black: #192a56;
+    --light-color: #666;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  }
+
+body {
+  background-color: #f5f8fa;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+}
+
+.thead-head{
+  background: var(--pink);
+}
+
+.btn {
+  font-size: 1.2rem;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--pink) !important;
+  color: white !important;
+}
+
+.modal-content {
+  border: solid 25px var(--pink) !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+@media (max-width: 444.98px) {
+  .cart-top {
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .item {
+    row-gap: 1rem;
+  }
+}

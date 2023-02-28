@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkout - Your Restaurant Name</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2>Checkout</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Shipping Information</h4>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="Enter your address">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City</label>
+                            <input type="text" class="form-control" id="city" placeholder="Enter your city">
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State</label>
+                            <input type="text" class="form-control" id="state" placeholder="Enter your state">
+                        </div>
+                        <div class="form-group">
+                            <label for="zip">ZIP Code</label>
+                            <input type="text" class="form-control" id="zip" placeholder="Enter your ZIP code">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4>Billing Information</h4>
+                    <form>
+                        <div class="form-group">
+                            <label for="cardname">Name on Card</label>
+                            <input type="text" class="form-control" id="cardname" placeholder="Enter name on card">
+                        </div>
+                        <div class="form-group">
+                            <label for="cardnumber">Card Number</label>
+                            <input type="text" class="form-control" id="cardnumber" placeholder="Enter card number">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="expiry">Expiration Date</label>
+                                <input type="text" class="form-control" id="expiry" placeholder="MM/YY">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="cvv">CVV</label>
+                                <input type="text" class="form-control" id="cvv" placeholder="Enter CVV">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="payment">Payment Method</label>
+                            <select class="form-control" id="payment">
+                                <option value="credit">Credit Card</option>
+                                <option value="debit">Debit Card</option>
+                                <option value="paypal">PayPal</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Place Order</button>
+            </div>
+        </main>
+        
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        

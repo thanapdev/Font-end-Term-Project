@@ -39,6 +39,11 @@
   }
 }
 
+body > div.container-topbar > div.row.container{
+  margin: 0 auto;
+  
+}
+
 @media (max-width:768px) {
   header .icons #menu-bars{
     display: inline-block;
@@ -72,10 +77,16 @@
     font-size: 2rem;
     background: #eee;
   }
+
+  body > div.container-topbar > div.row.container{
+    margin: 0 auto;
+    max-width: 80%;
+    
+  }
 }
 
 @media (max-width:991px) {
-  html{
+  /* html{
     font-size: 50%;
   }
   .product {
@@ -89,7 +100,7 @@
   header{
     padding: 1rem 2rem;
 
-  }
+  } */
 }
 /* end media */
 

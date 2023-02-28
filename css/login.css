@@ -181,7 +181,7 @@ html{
     background: #fff;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 20px;
-    backdrop-filter: blur(20px);
+    /* backdrop-filter: blur(20px); */
     box-shadow: 0 0 30px rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
@@ -261,6 +261,10 @@ html{
   border-radius: 6px;
   cursor: pointer;
   }
+
+  .btn-login:hover{
+    background: var(--pink);
+  }
   .login-register{
     font-size: 1em;
     color: #162938;
@@ -270,7 +274,7 @@ html{
   }
 
   .login-register p a{
-    color: #162938;
+    color: var(--pink);
     text-decoration: none;
     font-weight: 600;
   }

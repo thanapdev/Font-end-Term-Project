@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-NW+U5v6UHFrW1M7ySfXJ+0v6OzH6wL4bJ4D0IPOO2P+oBzJyB1vjX9OeV7p+z+6YdG7hfglLs/Ds3aMfWtJusA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Uber Eats</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h5 class="card-title">Your Order</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">Item 1<span class="badge bg-secondary float-end">$10.99</span></li>
+                                <li class="list-group-item">Item 2<span class="badge bg-secondary float-end">$7.99</span></li>
+                                <li class="list-group-item">Item 3<span class="badge bg-secondary float-end">$5.99</span></li>
+                                <li class="list-group-item">Item 4<span class="badge bg-secondary float-end">$8.99</span></li>
+                                <li class="list-group-item">Item 5<span class="badge bg-secondary float-end">$6.99</span></li>
+                            </ul>
+                            <div class="mt-3">
+                                <h6>Delivery Address:</h6>
+                                <p>123 Main St, Anytown, USA</p>
+                            </div>
+                            <div class="mt-3">
+                                <h6>Payment Method:</h6>
+                                <p>Credit Card</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h5 class="card-title">Order Summary</h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">Subtotal<span class="badge bg-secondary float-end">$40.95</span></li>
+                                <li class="list-group-item">Tax<span class="badge bg-secondary float-end">$3.28</span></li>
+                                <li class="list-group-item">Delivery Fee<span class="badge bg-secondary float-end">$2.99</span></li>
+                                <li class="list-group-item"><strong>Total</strong><span class="badge bg-primary float-end">$47.22</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js" integrity="sha512-lUtnHzY8ebVhB6yPeB7TnT8PjKymw/P2l1xhOIc7l4jW4m1q3hwpGca+Bd7VbNj+uR7VfIIMp1++B0ySWU9v6g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
